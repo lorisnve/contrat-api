@@ -1,0 +1,28 @@
+# Dépendances (couvre frontend/node_modules et backend/node_modules)
+node_modules/
+
+# Dossiers de build (Vite et compilation TypeScript)
+dist/
+build/
+
+# Variables d'environnement (garde tes secrets hors de Git)
+.env
+.env.*
+!.env.example
+
+# Logs npm / debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache TypeScript et Vite
+*.tsbuildinfo
+.vite/
+
+# Fichiers système et IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
